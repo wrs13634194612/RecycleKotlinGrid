@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    android:background="@android:color/holo_red_dark"
+    android:padding="8dp">
+
+    <!-- Course Image -->
+    <ImageView
+        android:id="@+id/courseImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+
+        android:scaleType="center"
+        android:src="@mipmap/ic_launcher" />
+
+    <!-- Course Text -->
+    <TextView
+
+        android:id="@+id/courseText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        android:gravity="left"
+        android:text="Course Name"
+        android:textSize="12sp"
+        android:textColor="@color/black" />
+
+    <!-- Grey Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>
